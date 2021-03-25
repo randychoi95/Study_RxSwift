@@ -38,6 +38,9 @@
 /* Begin PBXFileReference section */
 		407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C949C558A9DD74BFF3CD /* Pods-Study_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		984F236A260C0E7B001840EF /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		984F2370260C4C16001840EF /* Publish Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publish Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		984F23E5260C710E001840EF /* Behavior Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Behavior Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9862743726087AEF00D8B315 /* Study_RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862743A26087AEF00D8B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9862743C26087AEF00D8B315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +103,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		984F2369260C0E5A001840EF /* 3.Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				984F236F260C4BEC001840EF /* Challenges */,
+				984F236A260C0E7B001840EF /* Subjects.playground */,
+			);
+			path = 3.Subjects;
+			sourceTree = "<group>";
+		};
+		984F236F260C4BEC001840EF /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				984F2370260C4C16001840EF /* Publish Subject.playground */,
+				984F23E5260C710E001840EF /* Behavior Relay.playground */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
 		9862742E26087AEF00D8B315 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +146,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				984F2369260C0E5A001840EF /* 3.Subjects */,
 				98EB5C70260AD0C100964C9F /* 2.Observables */,
 				9862743A26087AEF00D8B315 /* AppDelegate.swift */,
 				9862743C26087AEF00D8B315 /* SceneDelegate.swift */,
