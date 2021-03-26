@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goToChapter4(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "ObservablesAndSubjects", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ObservablesAndSubjectsViewController") as! ObservablesAndSubjectsViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
