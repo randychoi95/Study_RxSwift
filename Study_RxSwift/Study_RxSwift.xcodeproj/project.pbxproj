@@ -56,6 +56,8 @@
 		984F2449260D699A001840EF /* UIImage+Collage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Collage.swift"; sourceTree = "<group>"; };
 		984F2457260D6A59001840EF /* ObservablesAndSubjects.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservablesAndSubjects.storyboard; sourceTree = "<group>"; };
 		984F2468260DB6A7001840EF /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		984F247A26115C56001840EF /* Filtering Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Filtering Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		984F247F26119427001840EF /* Create a phone number lookup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Create a phone number lookup.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9862743726087AEF00D8B315 /* Study_RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862743A26087AEF00D8B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9862743C26087AEF00D8B315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,23 @@
 			path = "4.Observables&Subjects";
 			sourceTree = "<group>";
 		};
+		984F246E26115A69001840EF /* 5.Filtering Operators */ = {
+			isa = PBXGroup;
+			children = (
+				984F247E261193F2001840EF /* Challenge */,
+				984F247A26115C56001840EF /* Filtering Operators.playground */,
+			);
+			path = "5.Filtering Operators";
+			sourceTree = "<group>";
+		};
+		984F247E261193F2001840EF /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				984F247F26119427001840EF /* Create a phone number lookup.playground */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
 		9862742E26087AEF00D8B315 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +194,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				984F246E26115A69001840EF /* 5.Filtering Operators */,
 				984F2424260D67E5001840EF /* 4.Observables&Subjects */,
 				984F2369260C0E5A001840EF /* 3.Subjects */,
 				98EB5C70260AD0C100964C9F /* 2.Observables */,

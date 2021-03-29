@@ -25,6 +25,48 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Create a phone number lookup (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>Create a phone number lookup (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>Create a phone number lookup (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>Filtering Operators (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Filtering Operators (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>Filtering Operators (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>Observables (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
