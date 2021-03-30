@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B274185EAE8A43691DCA2EE /* Pods_Study_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */; };
+		982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */; };
 		984F2402260D631E001840EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F2401260D631E001840EF /* Assets.xcassets */; };
 		984F241F260D63EC001840EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744026087AEF00D8B315 /* Main.storyboard */; };
 		984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744526087AF000D8B315 /* LaunchScreen.storyboard */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C949C558A9DD74BFF3CD /* Pods-Study_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 		984F236A260C0E7B001840EF /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F2370260C4C16001840EF /* Publish Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publish Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F23E5260C710E001840EF /* Behavior Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Behavior Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -147,6 +149,7 @@
 				984F2449260D699A001840EF /* UIImage+Collage.swift */,
 				984F2457260D6A59001840EF /* ObservablesAndSubjects.storyboard */,
 				984F2468260DB6A7001840EF /* UIViewController+Alert.swift */,
+				982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */,
 			);
 			path = "4.Observables&Subjects";
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */,
 				984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */,
 				984F2445260D6975001840EF /* PhotoWriter.swift in Sources */,
 				9862743F26087AEF00D8B315 /* ViewController.swift in Sources */,

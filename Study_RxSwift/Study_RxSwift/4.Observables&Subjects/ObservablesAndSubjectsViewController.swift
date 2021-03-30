@@ -13,6 +13,7 @@ class ObservablesAndSubjectsViewController: UIViewController {
     
     private let bag = DisposeBag()
     private let images = BehaviorRelay<[UIImage]>(value: [])
+    private var imageCache = [Int]()
     
     @IBOutlet weak var imagePreview: UIImageView!
     @IBOutlet weak var buttonClear: UIButton!
@@ -24,6 +25,7 @@ class ObservablesAndSubjectsViewController: UIViewController {
         
         // BehaviorRelay객체에 구독 요청
         images
+            .throttle(.milliseconds(500), scheduler: MainScheduler.instance)
             .subscribe(onNext: { [weak imagePreview] photos in
                 guard let preview = imagePreview else {return}
                 preview.image = photos.collage(size: preview.frame.size)
@@ -39,6 +41,7 @@ class ObservablesAndSubjectsViewController: UIViewController {
     
     @IBAction func actionClear() {
         images.accept([])
+        imageCache = []
     }
     
     @IBAction func actionSave() {
@@ -61,7 +64,24 @@ class ObservablesAndSubjectsViewController: UIViewController {
         
         let photosViewController = storyboard!.instantiateViewController(withIdentifier: "PhotosViewController") as! PhotosViewController
         
-        photosViewController.selectedPhotos
+        let newPhotos = photosViewController.selectedPhotos.share()
+        
+        newPhotos
+            .takeWhile { [weak self] image in
+                let count = self?.images.value.count ?? 0
+                return count < 6
+            }
+            .filter({ newImage in
+                return newImage.size.width > newImage.size.height
+            })
+            .filter({ [weak self] newImage in
+                let len = newImage.pngData()?.count ?? 0
+                guard self?.imageCache.contains(len) == false else {
+                    return false
+                }
+                self?.imageCache.append(len)
+                return true
+            })
             .subscribe(onNext: { [weak self] newImage in
                 guard let images = self?.images else { return }
                 images.accept(images.value + [newImage])
@@ -72,11 +92,26 @@ class ObservablesAndSubjectsViewController: UIViewController {
             )
             .disposed(by: bag)
         
+        newPhotos
+            .ignoreElements()
+            .subscribe(onCompleted: { [weak self] in
+                self?.updateNavigationIcon()
+            })
+            .disposed(by: bag)
+        
         navigationController!.pushViewController(photosViewController, animated: true)
     }
     
+    private func updateNavigationIcon() {
+        let icon = imagePreview.image?
+            .scaled(CGSize(width: 22, height: 22))
+            .withRenderingMode(.alwaysOriginal)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: icon, style: .done, target: nil, action: nil)
+    }
+    
     func showMessage(_ title: String, description: String? = nil) {
-        alert(title, text: description)
+        alert(title: title, text: description)
             .subscribe()
             .disposed(by: bag)
     }
