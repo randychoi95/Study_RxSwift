@@ -47,6 +47,8 @@
 		407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C949C558A9DD74BFF3CD /* Pods-Study_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
+		982E32D3261431EC002020EB /* Transforming Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Transforming Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Modify the challenge from Chapter 5 to take alpha-numeric characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F236A260C0E7B001840EF /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F2370260C4C16001840EF /* Publish Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publish Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F23E5260C710E001840EF /* Behavior Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Behavior Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -119,6 +121,23 @@
 				407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		982E32D2261431D3002020EB /* 7.Transforming Operators */ = {
+			isa = PBXGroup;
+			children = (
+				982E32DB26144EC7002020EB /* Challenge */,
+				982E32D3261431EC002020EB /* Transforming Operators.playground */,
+			);
+			path = "7.Transforming Operators";
+			sourceTree = "<group>";
+		};
+		982E32DB26144EC7002020EB /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 		984F2369260C0E5A001840EF /* 3.Subjects */ = {
@@ -197,6 +216,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				982E32D2261431D3002020EB /* 7.Transforming Operators */,
 				984F246E26115A69001840EF /* 5.Filtering Operators */,
 				984F2424260D67E5001840EF /* 4.Observables&Subjects */,
 				984F2369260C0E5A001840EF /* 3.Subjects */,
