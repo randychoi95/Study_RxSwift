@@ -9,5 +9,5 @@ target 'Study_RxSwift' do
   # Pods for Study_RxSwift
   pod 'RxSwift', '~> 5.1'
   pod 'RxCocoa', '~> 5.1'
-
+  pod 'Kingfisher'
 end

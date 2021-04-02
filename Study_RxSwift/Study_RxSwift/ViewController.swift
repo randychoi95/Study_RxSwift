@@ -20,5 +20,10 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func goToChapter8(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "GitFeed", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ActivityController") as! ActivityController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

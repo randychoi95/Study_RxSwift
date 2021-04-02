@@ -16,17 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CN6-2M-Ogf">
-                                <rect key="frame" x="93" y="410" width="228" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Chapter4. Observables&amp;Subjects"/>
-                                <connections>
-                                    <action selector="goToChapter4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BCF-3R-FPX"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zkL-OO-nUO">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CN6-2M-Ogf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="387"/>
+                                        <state key="normal" title="Chapter4. Observables&amp;Subjects"/>
+                                        <connections>
+                                            <action selector="goToChapter4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BCF-3R-FPX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQu-4B-AOF">
+                                        <rect key="frame" x="0.0" y="387" width="414" height="387"/>
+                                        <state key="normal" title="Chapter8. Transforming Operators"/>
+                                        <connections>
+                                            <action selector="goToChapter8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3n-3P-DL9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zkL-OO-nUO" secondAttribute="bottom" id="I3r-Uu-GCr"/>
+                            <constraint firstItem="zkL-OO-nUO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bHY-rO-5xu"/>
+                            <constraint firstItem="zkL-OO-nUO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iXQ-Oo-Adu"/>
+                            <constraint firstAttribute="trailing" secondItem="zkL-OO-nUO" secondAttribute="trailing" id="zZr-Gg-Nij"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wxy-AF-BPW"/>
                 </viewController>

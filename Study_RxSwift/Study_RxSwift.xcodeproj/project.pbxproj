@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6B274185EAE8A43691DCA2EE /* Pods_Study_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */; };
 		982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */; };
+		983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D69FA261549AD00BC41D4 /* GitFeed.storyboard */; };
+		983D6A01261549CE00BC41D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D69FF261549CE00BC41D4 /* Event.swift */; };
+		983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6A00261549CE00BC41D4 /* ActivityController.swift */; };
 		984F2402260D631E001840EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F2401260D631E001840EF /* Assets.xcassets */; };
 		984F241F260D63EC001840EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744026087AEF00D8B315 /* Main.storyboard */; };
 		984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744526087AF000D8B315 /* LaunchScreen.storyboard */; };
@@ -49,6 +52,9 @@
 		982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 		982E32D3261431EC002020EB /* Transforming Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Transforming Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Modify the challenge from Chapter 5 to take alpha-numeric characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		983D69FA261549AD00BC41D4 /* GitFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitFeed.storyboard; sourceTree = "<group>"; };
+		983D69FF261549CE00BC41D4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		983D6A00261549CE00BC41D4 /* ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
 		984F236A260C0E7B001840EF /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F2370260C4C16001840EF /* Publish Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publish Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F23E5260C710E001840EF /* Behavior Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Behavior Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -140,6 +146,16 @@
 			path = Challenge;
 			sourceTree = "<group>";
 		};
+		983D69F62615486800BC41D4 /* 8.Transforming Operators in Practice */ = {
+			isa = PBXGroup;
+			children = (
+				983D6A00261549CE00BC41D4 /* ActivityController.swift */,
+				983D69FF261549CE00BC41D4 /* Event.swift */,
+				983D69FA261549AD00BC41D4 /* GitFeed.storyboard */,
+			);
+			path = "8.Transforming Operators in Practice";
+			sourceTree = "<group>";
+		};
 		984F2369260C0E5A001840EF /* 3.Subjects */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +232,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				983D69F62615486800BC41D4 /* 8.Transforming Operators in Practice */,
 				982E32D2261431D3002020EB /* 7.Transforming Operators */,
 				984F246E26115A69001840EF /* 5.Filtering Operators */,
 				984F2424260D67E5001840EF /* 4.Observables&Subjects */,
@@ -371,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */,
 				984F2458260D6A59001840EF /* ObservablesAndSubjects.storyboard in Resources */,
 				984F241F260D63EC001840EF /* Main.storyboard in Resources */,
 				984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */,
@@ -441,6 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983D6A01261549CE00BC41D4 /* Event.swift in Sources */,
+				983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */,
 				982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */,
 				984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */,
 				984F2445260D6975001840EF /* PhotoWriter.swift in Sources */,
