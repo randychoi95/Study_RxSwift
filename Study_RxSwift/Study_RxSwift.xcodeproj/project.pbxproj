@@ -81,6 +81,7 @@
 		9862745826087AF000D8B315 /* Study_RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_RxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862745C26087AF000D8B315 /* Study_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		9862745E26087AF000D8B315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B4F34D2616AD2F0063BC02 /* Combining Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combining Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		98EB5C71260AD15900964C9F /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		98EB5C84260B13E200964C9F /* Perform side effects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Perform side effects.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		997CE7D10B46A8B625E2289F /* Pods-Study_RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				98B4F34C2616AC3C0063BC02 /* 9.Combining Operators */,
 				983D69F62615486800BC41D4 /* 8.Transforming Operators in Practice */,
 				982E32D2261431D3002020EB /* 7.Transforming Operators */,
 				984F246E26115A69001840EF /* 5.Filtering Operators */,
@@ -264,6 +266,14 @@
 				9862745E26087AF000D8B315 /* Info.plist */,
 			);
 			path = Study_RxSwiftUITests;
+			sourceTree = "<group>";
+		};
+		98B4F34C2616AC3C0063BC02 /* 9.Combining Operators */ = {
+			isa = PBXGroup;
+			children = (
+				98B4F34D2616AD2F0063BC02 /* Combining Operators.playground */,
+			);
+			path = "9.Combining Operators";
 			sourceTree = "<group>";
 		};
 		98EB5C70260AD0C100964C9F /* 2.Observables */ = {
