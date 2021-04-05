@@ -49,6 +49,7 @@
 /* Begin PBXFileReference section */
 		407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C949C558A9DD74BFF3CD /* Pods-Study_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		981EBD7F261ACE3D0042C324 /* TheZipCase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheZipCase.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 		982E32D3261431EC002020EB /* Transforming Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Transforming Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Modify the challenge from Chapter 5 to take alpha-numeric characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -128,6 +129,14 @@
 				407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981EBD7E261ACE280042C324 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				981EBD7F261ACE3D0042C324 /* TheZipCase.playground */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 		982E32D2261431D3002020EB /* 7.Transforming Operators */ = {
@@ -271,6 +280,7 @@
 		98B4F34C2616AC3C0063BC02 /* 9.Combining Operators */ = {
 			isa = PBXGroup;
 			children = (
+				981EBD7E261ACE280042C324 /* Challenge */,
 				98B4F34D2616AD2F0063BC02 /* Combining Operators.playground */,
 			);
 			path = "9.Combining Operators";
@@ -785,7 +795,7 @@
 				9862746026087AF000D8B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9862746126087AF000D8B315 /* Build configuration list for PBXNativeTarget "Study_RxSwift" */ = {
 			isa = XCConfigurationList;
@@ -794,7 +804,7 @@
 				9862746326087AF000D8B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9862746426087AF000D8B315 /* Build configuration list for PBXNativeTarget "Study_RxSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -803,7 +813,7 @@
 				9862746626087AF000D8B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9862746726087AF000D8B315 /* Build configuration list for PBXNativeTarget "Study_RxSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -812,7 +822,7 @@
 				9862746926087AF000D8B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
