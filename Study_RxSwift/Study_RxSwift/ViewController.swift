@@ -25,5 +25,11 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "ActivityController") as! ActivityController
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func goToChapter10(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "OurPlanet", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "CategoriesViewController") as! CategoriesViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

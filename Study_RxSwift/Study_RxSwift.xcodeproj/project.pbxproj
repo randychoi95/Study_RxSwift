@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6B274185EAE8A43691DCA2EE /* Pods_Study_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */; };
+		981EBEF0261C1F210042C324 /* EOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEEA261C1F210042C324 /* EOError.swift */; };
+		981EBEF1261C1F210042C324 /* EOEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEEB261C1F210042C324 /* EOEvent.swift */; };
+		981EBEF2261C1F210042C324 /* EOCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEEC261C1F210042C324 /* EOCategory.swift */; };
+		981EBEF3261C1F210042C324 /* EOEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEED261C1F210042C324 /* EOEnvelope.swift */; };
+		981EBEF4261C1F210042C324 /* EOLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEEE261C1F210042C324 /* EOLocation.swift */; };
+		981EBEF5261C1F210042C324 /* EONET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEEF261C1F210042C324 /* EONET.swift */; };
+		981EBEFC261C1F730042C324 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEF9261C1F730042C324 /* EventCell.swift */; };
+		981EBEFD261C1F730042C324 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEFA261C1F730042C324 /* EventsViewController.swift */; };
+		981EBEFE261C1F730042C324 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EBEFB261C1F730042C324 /* CategoriesViewController.swift */; };
+		981EBF03261C1F820042C324 /* OurPlanet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981EBF02261C1F820042C324 /* OurPlanet.storyboard */; };
 		982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */; };
 		983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D69FA261549AD00BC41D4 /* GitFeed.storyboard */; };
 		983D6A01261549CE00BC41D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D69FF261549CE00BC41D4 /* Event.swift */; };
 		983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6A00261549CE00BC41D4 /* ActivityController.swift */; };
+		984AAA5726204CE0005C7D8C /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AAA5626204CE0005C7D8C /* DownloadView.swift */; };
 		984F2402260D631E001840EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F2401260D631E001840EF /* Assets.xcassets */; };
 		984F241F260D63EC001840EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744026087AEF00D8B315 /* Main.storyboard */; };
 		984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862744526087AF000D8B315 /* LaunchScreen.storyboard */; };
@@ -50,12 +61,23 @@
 		407BF6FEBF228704F0538665 /* Pods_Study_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C949C558A9DD74BFF3CD /* Pods-Study_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Study_RxSwift/Pods-Study_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		981EBD7F261ACE3D0042C324 /* TheZipCase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheZipCase.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		981EBEEA261C1F210042C324 /* EOError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOError.swift; sourceTree = "<group>"; };
+		981EBEEB261C1F210042C324 /* EOEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOEvent.swift; sourceTree = "<group>"; };
+		981EBEEC261C1F210042C324 /* EOCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOCategory.swift; sourceTree = "<group>"; };
+		981EBEED261C1F210042C324 /* EOEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOEnvelope.swift; sourceTree = "<group>"; };
+		981EBEEE261C1F210042C324 /* EOLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOLocation.swift; sourceTree = "<group>"; };
+		981EBEEF261C1F210042C324 /* EONET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EONET.swift; sourceTree = "<group>"; };
+		981EBEF9261C1F730042C324 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		981EBEFA261C1F730042C324 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		981EBEFB261C1F730042C324 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		981EBF02261C1F820042C324 /* OurPlanet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OurPlanet.storyboard; sourceTree = "<group>"; };
 		982E32CD2612FC1F002020EB /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 		982E32D3261431EC002020EB /* Transforming Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Transforming Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Modify the challenge from Chapter 5 to take alpha-numeric characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		983D69FA261549AD00BC41D4 /* GitFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitFeed.storyboard; sourceTree = "<group>"; };
 		983D69FF261549CE00BC41D4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		983D6A00261549CE00BC41D4 /* ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		984AAA5626204CE0005C7D8C /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 		984F236A260C0E7B001840EF /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F2370260C4C16001840EF /* Publish Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publish Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		984F23E5260C710E001840EF /* Behavior Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Behavior Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -137,6 +159,32 @@
 				981EBD7F261ACE3D0042C324 /* TheZipCase.playground */,
 			);
 			path = Challenge;
+			sourceTree = "<group>";
+		};
+		981EBEDC261C1D4E0042C324 /* 10.Combining Operators in Practice */ = {
+			isa = PBXGroup;
+			children = (
+				981EBF02261C1F820042C324 /* OurPlanet.storyboard */,
+				981EBEFB261C1F730042C324 /* CategoriesViewController.swift */,
+				981EBEF9261C1F730042C324 /* EventCell.swift */,
+				981EBEFA261C1F730042C324 /* EventsViewController.swift */,
+				981EBEE9261C1F170042C324 /* Model */,
+				984AAA5626204CE0005C7D8C /* DownloadView.swift */,
+			);
+			path = "10.Combining Operators in Practice";
+			sourceTree = "<group>";
+		};
+		981EBEE9261C1F170042C324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				981EBEEC261C1F210042C324 /* EOCategory.swift */,
+				981EBEED261C1F210042C324 /* EOEnvelope.swift */,
+				981EBEEA261C1F210042C324 /* EOError.swift */,
+				981EBEEB261C1F210042C324 /* EOEvent.swift */,
+				981EBEEE261C1F210042C324 /* EOLocation.swift */,
+				981EBEEF261C1F210042C324 /* EONET.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		982E32D2261431D3002020EB /* 7.Transforming Operators */ = {
@@ -242,6 +290,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				981EBEDC261C1D4E0042C324 /* 10.Combining Operators in Practice */,
 				98B4F34C2616AC3C0063BC02 /* 9.Combining Operators */,
 				983D69F62615486800BC41D4 /* 8.Transforming Operators in Practice */,
 				982E32D2261431D3002020EB /* 7.Transforming Operators */,
@@ -411,6 +460,7 @@
 				983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */,
 				984F2458260D6A59001840EF /* ObservablesAndSubjects.storyboard in Resources */,
 				984F241F260D63EC001840EF /* Main.storyboard in Resources */,
+				981EBF03261C1F820042C324 /* OurPlanet.storyboard in Resources */,
 				984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */,
 				984F2402260D631E001840EF /* Assets.xcassets in Resources */,
 			);
@@ -481,16 +531,26 @@
 			files = (
 				983D6A01261549CE00BC41D4 /* Event.swift in Sources */,
 				983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */,
+				981EBEF0261C1F210042C324 /* EOError.swift in Sources */,
+				981EBEF5261C1F210042C324 /* EONET.swift in Sources */,
 				982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */,
+				981EBEFE261C1F730042C324 /* CategoriesViewController.swift in Sources */,
+				984AAA5726204CE0005C7D8C /* DownloadView.swift in Sources */,
 				984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */,
 				984F2445260D6975001840EF /* PhotoWriter.swift in Sources */,
 				9862743F26087AEF00D8B315 /* ViewController.swift in Sources */,
+				981EBEFC261C1F730042C324 /* EventCell.swift in Sources */,
+				981EBEFD261C1F730042C324 /* EventsViewController.swift in Sources */,
 				984F243B260D691F001840EF /* PhotoCell.swift in Sources */,
+				981EBEF4261C1F210042C324 /* EOLocation.swift in Sources */,
 				984F244A260D699A001840EF /* UIImage+Collage.swift in Sources */,
 				9862743B26087AEF00D8B315 /* AppDelegate.swift in Sources */,
 				984F2440260D694A001840EF /* PhotosViewController.swift in Sources */,
 				984F2436260D68D6001840EF /* ObservablesAndSubjectsViewController.swift in Sources */,
+				981EBEF1261C1F210042C324 /* EOEvent.swift in Sources */,
+				981EBEF3261C1F210042C324 /* EOEnvelope.swift in Sources */,
 				9862743D26087AEF00D8B315 /* SceneDelegate.swift in Sources */,
+				981EBEF2261C1F210042C324 /* EOCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +727,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FF4F6NQNDX;
 				INFOPLIST_FILE = Study_RxSwift/Info.plist;
@@ -676,6 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.randychoi95.Study-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -687,6 +749,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FF4F6NQNDX;
 				INFOPLIST_FILE = Study_RxSwift/Info.plist;
@@ -696,6 +759,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.randychoi95.Study-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

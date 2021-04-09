@@ -1,5 +1,5 @@
 import UIKit
-import RxSwift
+import Rxswift
 
 public func example(of description: String,
                     action: () -> Void) {
