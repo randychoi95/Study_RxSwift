@@ -51,7 +51,7 @@ class EventsViewController: UIViewController, UITableViewDataSource {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 60
         
-        events.asObservable()
+        filteredEvents.asObservable()
             .subscribe(onNext: { [weak self] _ in
                 self?.tableView.reloadData()
             })
