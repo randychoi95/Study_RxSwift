@@ -33,6 +33,13 @@
 		984F244A260D699A001840EF /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F2449260D699A001840EF /* UIImage+Collage.swift */; };
 		984F2458260D6A59001840EF /* ObservablesAndSubjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984F2457260D6A59001840EF /* ObservablesAndSubjects.storyboard */; };
 		984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F2468260DB6A7001840EF /* UIViewController+Alert.swift */; };
+		985D0DEC26291BBD00D729E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 985D0DEA26291BBD00D729E4 /* LICENSE */; };
+		985D0DED26291BBD00D729E4 /* weather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985D0DEB26291BBD00D729E4 /* weather.ttf */; };
+		985D0DF326291BF100D729E4 /* Wundercast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985D0DF226291BF100D729E4 /* Wundercast.storyboard */; };
+		985D0DF826291C1E00D729E4 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D0DF726291C1E00D729E4 /* ApiController.swift */; };
+		985D0DFF26291C3E00D729E4 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D0DFD26291C3E00D729E4 /* Appearance.swift */; };
+		985D0E0026291C3E00D729E4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D0DFE26291C3E00D729E4 /* Colors.swift */; };
+		985D0E0526291C4B00D729E4 /* WundercastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D0E0426291C4B00D729E4 /* WundercastViewController.swift */; };
 		9862743B26087AEF00D8B315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862743A26087AEF00D8B315 /* AppDelegate.swift */; };
 		9862743D26087AEF00D8B315 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862743C26087AEF00D8B315 /* SceneDelegate.swift */; };
 		9862743F26087AEF00D8B315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862743E26087AEF00D8B315 /* ViewController.swift */; };
@@ -92,6 +99,13 @@
 		984F247F26119427001840EF /* Create a phone number lookup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Create a phone number lookup.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		985759602623CF8E006CF6CB /* Transforming Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Transforming Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		985759692623DE35006CF6CB /* buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = buffer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		985D0DEA26291BBD00D729E4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		985D0DEB26291BBD00D729E4 /* weather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weather.ttf; sourceTree = "<group>"; };
+		985D0DF226291BF100D729E4 /* Wundercast.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wundercast.storyboard; sourceTree = "<group>"; };
+		985D0DF726291C1E00D729E4 /* ApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		985D0DFD26291C3E00D729E4 /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		985D0DFE26291C3E00D729E4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		985D0E0426291C4B00D729E4 /* WundercastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WundercastViewController.swift; sourceTree = "<group>"; };
 		9862743726087AEF00D8B315 /* Study_RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862743A26087AEF00D8B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9862743C26087AEF00D8B315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -281,6 +295,44 @@
 			path = "11.Time-Based Operators";
 			sourceTree = "<group>";
 		};
+		985D0DE226291B6400D729E4 /* 12.Beginning RxCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				985D0E0426291C4B00D729E4 /* WundercastViewController.swift */,
+				985D0DFC26291C2C00D729E4 /* Utils */,
+				985D0DF226291BF100D729E4 /* Wundercast.storyboard */,
+				985D0DF126291BCE00D729E4 /* Controllers */,
+				985D0DE926291BA700D729E4 /* Assets */,
+			);
+			path = "12.Beginning RxCocoa";
+			sourceTree = "<group>";
+		};
+		985D0DE926291BA700D729E4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				985D0DEA26291BBD00D729E4 /* LICENSE */,
+				985D0DEB26291BBD00D729E4 /* weather.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		985D0DF126291BCE00D729E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				985D0DF726291C1E00D729E4 /* ApiController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		985D0DFC26291C2C00D729E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				985D0DFD26291C3E00D729E4 /* Appearance.swift */,
+				985D0DFE26291C3E00D729E4 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9862742E26087AEF00D8B315 = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +359,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				985D0DE226291B6400D729E4 /* 12.Beginning RxCocoa */,
 				985759682623DE19006CF6CB /* 11.Time-Based Operators */,
 				981EBEDC261C1D4E0042C324 /* 10.Combining Operators in Practice */,
 				98B4F34C2616AC3C0063BC02 /* 9.Combining Operators */,
@@ -476,9 +529,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */,
+				985D0DF326291BF100D729E4 /* Wundercast.storyboard in Resources */,
+				985D0DEC26291BBD00D729E4 /* LICENSE in Resources */,
 				984F2458260D6A59001840EF /* ObservablesAndSubjects.storyboard in Resources */,
 				984F241F260D63EC001840EF /* Main.storyboard in Resources */,
 				981EBF03261C1F820042C324 /* OurPlanet.storyboard in Resources */,
+				985D0DED26291BBD00D729E4 /* weather.ttf in Resources */,
 				984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */,
 				984F2402260D631E001840EF /* Assets.xcassets in Resources */,
 			);
@@ -553,7 +609,9 @@
 				981EBEF5261C1F210042C324 /* EONET.swift in Sources */,
 				982E32CE2612FC1F002020EB /* PHPhotoLibrary+Rx.swift in Sources */,
 				981EBEFE261C1F730042C324 /* CategoriesViewController.swift in Sources */,
+				985D0E0026291C3E00D729E4 /* Colors.swift in Sources */,
 				984AAA5726204CE0005C7D8C /* DownloadView.swift in Sources */,
+				985D0E0526291C4B00D729E4 /* WundercastViewController.swift in Sources */,
 				984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */,
 				984F2445260D6975001840EF /* PhotoWriter.swift in Sources */,
 				9862743F26087AEF00D8B315 /* ViewController.swift in Sources */,
@@ -561,10 +619,12 @@
 				981EBEFD261C1F730042C324 /* EventsViewController.swift in Sources */,
 				984F243B260D691F001840EF /* PhotoCell.swift in Sources */,
 				981EBEF4261C1F210042C324 /* EOLocation.swift in Sources */,
+				985D0DF826291C1E00D729E4 /* ApiController.swift in Sources */,
 				984F244A260D699A001840EF /* UIImage+Collage.swift in Sources */,
 				9862743B26087AEF00D8B315 /* AppDelegate.swift in Sources */,
 				984F2440260D694A001840EF /* PhotosViewController.swift in Sources */,
 				984F2436260D68D6001840EF /* ObservablesAndSubjectsViewController.swift in Sources */,
+				985D0DFF26291C3E00D729E4 /* Appearance.swift in Sources */,
 				981EBEF1261C1F210042C324 /* EOEvent.swift in Sources */,
 				981EBEF3261C1F210042C324 /* EOEnvelope.swift in Sources */,
 				9862743D26087AEF00D8B315 /* SceneDelegate.swift in Sources */,

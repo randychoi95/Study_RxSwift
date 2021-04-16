@@ -31,5 +31,11 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "CategoriesViewController") as! CategoriesViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func goToChapter12(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Wundercast", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WundercastViewController") as! WundercastViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
