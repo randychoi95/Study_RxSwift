@@ -20,31 +20,38 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CN6-2M-Ogf">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="155"/>
                                         <state key="normal" title="Chapter4. Observables&amp;Subjects"/>
                                         <connections>
                                             <action selector="goToChapter4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BCF-3R-FPX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQu-4B-AOF">
-                                        <rect key="frame" x="0.0" y="193.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="155" width="414" height="154.5"/>
                                         <state key="normal" title="Chapter8. Transforming Operators"/>
                                         <connections>
                                             <action selector="goToChapter8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3n-3P-DL9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIS-Z3-jBz">
-                                        <rect key="frame" x="0.0" y="387" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="309.5" width="414" height="155"/>
                                         <state key="normal" title="Chapter10. Combining Operators"/>
                                         <connections>
                                             <action selector="goToChapter10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xb-WG-slM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svs-6O-z4u">
-                                        <rect key="frame" x="0.0" y="580.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="464.5" width="414" height="154.5"/>
                                         <state key="normal" title="Chapter12. Beginning RxCocoa"/>
                                         <connections>
                                             <action selector="goToChapter12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhY-Qe-QXO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfI-bE-o5h">
+                                        <rect key="frame" x="0.0" y="619" width="414" height="155"/>
+                                        <state key="normal" title="Chapter13. Intermediate RxCocoa"/>
+                                        <connections>
+                                            <action selector="goToChapter13:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JlR-Cl-gef"/>
                                         </connections>
                                     </button>
                                 </subviews>
