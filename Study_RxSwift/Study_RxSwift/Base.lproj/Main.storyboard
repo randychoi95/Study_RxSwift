@@ -54,6 +54,13 @@
                                             <action selector="goToChapter13:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JlR-Cl-gef"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpX-iC-o7D">
+                                        <rect key="frame" x="0.0" y="309" width="414" height="155"/>
+                                        <state key="normal" title="Chapter14. Error Handling"/>
+                                        <connections>
+                                            <action selector="goToChapter14:" destination="BYZ-38-t0r" eventType="touchUpInside" id="feM-b8-qwf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -78,7 +85,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nwR-ia-1MV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3S5-EG-Vhm">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

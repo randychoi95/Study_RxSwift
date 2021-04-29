@@ -26,6 +26,15 @@
 		9832B8CC26379F330045C25B /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B8CA26379F330045C25B /* CLLocationManager+Rx.swift */; };
 		9832B8E22637A0400045C25B /* WundercastViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B8E12637A0400045C25B /* WundercastViewController2.swift */; };
 		9832B8EA2637A0600045C25B /* Wundercast2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9832B8E92637A0600045C25B /* Wundercast2.storyboard */; };
+		983592D4263A3CA500350020 /* weather3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 983592D2263A3CA400350020 /* weather3.ttf */; };
+		983592D5263A3CA500350020 /* LICENSE3 in Resources */ = {isa = PBXBuildFile; fileRef = 983592D3263A3CA500350020 /* LICENSE3 */; };
+		983592E6263A3D3600350020 /* ApiController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983592E5263A3D3600350020 /* ApiController3.swift */; };
+		983592EC263A3DE000350020 /* CLLocationManager2+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983592EB263A3DE000350020 /* CLLocationManager2+Rx.swift */; };
+		983592FA263A3E7F00350020 /* RxReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983592F9263A3E7F00350020 /* RxReachability.swift */; };
+		98359302263A3E9A00350020 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98359300263A3E9A00350020 /* InfoView.swift */; };
+		98359303263A3E9A00350020 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98359301263A3E9A00350020 /* InfoView.xib */; };
+		98359308263A3ECE00350020 /* Wundercast3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98359307263A3ECE00350020 /* Wundercast3ViewController.swift */; };
+		9835930D263A3F2E00350020 /* Wundercast3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9835930C263A3F2E00350020 /* Wundercast3.storyboard */; };
 		983D69FB261549AD00BC41D4 /* GitFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D69FA261549AD00BC41D4 /* GitFeed.storyboard */; };
 		983D6A01261549CE00BC41D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D69FF261549CE00BC41D4 /* Event.swift */; };
 		983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6A00261549CE00BC41D4 /* ActivityController.swift */; };
@@ -93,6 +102,15 @@
 		9832B8CA26379F330045C25B /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
 		9832B8E12637A0400045C25B /* WundercastViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WundercastViewController2.swift; sourceTree = "<group>"; };
 		9832B8E92637A0600045C25B /* Wundercast2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wundercast2.storyboard; sourceTree = "<group>"; };
+		983592D2263A3CA400350020 /* weather3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weather3.ttf; sourceTree = "<group>"; };
+		983592D3263A3CA500350020 /* LICENSE3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE3; sourceTree = "<group>"; };
+		983592E5263A3D3600350020 /* ApiController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController3.swift; sourceTree = "<group>"; };
+		983592EB263A3DE000350020 /* CLLocationManager2+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager2+Rx.swift"; sourceTree = "<group>"; };
+		983592F9263A3E7F00350020 /* RxReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxReachability.swift; sourceTree = "<group>"; };
+		98359300263A3E9A00350020 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		98359301263A3E9A00350020 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		98359307263A3ECE00350020 /* Wundercast3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wundercast3ViewController.swift; sourceTree = "<group>"; };
+		9835930C263A3F2E00350020 /* Wundercast3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wundercast3.storyboard; sourceTree = "<group>"; };
 		983D69F226144F0A00BC41D4 /* Modify the challenge from Chapter 5 to take alpha-numeric characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Modify the challenge from Chapter 5 to take alpha-numeric characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		983D69FA261549AD00BC41D4 /* GitFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitFeed.storyboard; sourceTree = "<group>"; };
 		983D69FF261549CE00BC41D4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -275,6 +293,62 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		983592D0263A3C5700350020 /* 14.Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				983592FE263A3E8A00350020 /* Utils */,
+				983592EA263A3DBC00350020 /* Extension */,
+				983592DC263A3CEA00350020 /* Controllers */,
+				983592D1263A3C9900350020 /* Assets */,
+				98359307263A3ECE00350020 /* Wundercast3ViewController.swift */,
+				9835930C263A3F2E00350020 /* Wundercast3.storyboard */,
+			);
+			path = "14.Error Handling";
+			sourceTree = "<group>";
+		};
+		983592D1263A3C9900350020 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				983592D3263A3CA500350020 /* LICENSE3 */,
+				983592D2263A3CA400350020 /* weather3.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		983592DC263A3CEA00350020 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				983592E5263A3D3600350020 /* ApiController3.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		983592EA263A3DBC00350020 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				983592EB263A3DE000350020 /* CLLocationManager2+Rx.swift */,
+				983592F9263A3E7F00350020 /* RxReachability.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		983592FE263A3E8A00350020 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				983592FF263A3E9000350020 /* infoView */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		983592FF263A3E9000350020 /* infoView */ = {
+			isa = PBXGroup;
+			children = (
+				98359300263A3E9A00350020 /* InfoView.swift */,
+				98359301263A3E9A00350020 /* InfoView.xib */,
+			);
+			path = infoView;
+			sourceTree = "<group>";
+		};
 		983D69F62615486800BC41D4 /* 8.Transforming Operators in Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +485,7 @@
 		9862743926087AEF00D8B315 /* Study_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				983592D0263A3C5700350020 /* 14.Error Handling */,
 				9832B8AD26379DCA0045C25B /* 13.Intermediate Rxcocoa */,
 				985D0DE226291B6400D729E4 /* 12.Beginning RxCocoa */,
 				985759682623DE19006CF6CB /* 11.Time-Based Operators */,
@@ -585,12 +660,16 @@
 				985D0DF326291BF100D729E4 /* Wundercast.storyboard in Resources */,
 				985D0DEC26291BBD00D729E4 /* LICENSE in Resources */,
 				9832B8EA2637A0600045C25B /* Wundercast2.storyboard in Resources */,
+				983592D4263A3CA500350020 /* weather3.ttf in Resources */,
 				9832B8B726379E190045C25B /* weather2.ttf in Resources */,
 				984F2458260D6A59001840EF /* ObservablesAndSubjects.storyboard in Resources */,
 				9832B8B826379E190045C25B /* LICENSE2 in Resources */,
 				984F241F260D63EC001840EF /* Main.storyboard in Resources */,
 				981EBF03261C1F820042C324 /* OurPlanet.storyboard in Resources */,
+				983592D5263A3CA500350020 /* LICENSE3 in Resources */,
+				9835930D263A3F2E00350020 /* Wundercast3.storyboard in Resources */,
 				985D0DED26291BBD00D729E4 /* weather.ttf in Resources */,
+				98359303263A3E9A00350020 /* InfoView.xib in Resources */,
 				984F2420260D63EC001840EF /* LaunchScreen.storyboard in Resources */,
 				984F2402260D631E001840EF /* Assets.xcassets in Resources */,
 			);
@@ -659,9 +738,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983592EC263A3DE000350020 /* CLLocationManager2+Rx.swift in Sources */,
 				9832B8E22637A0400045C25B /* WundercastViewController2.swift in Sources */,
+				983592FA263A3E7F00350020 /* RxReachability.swift in Sources */,
 				983D6A01261549CE00BC41D4 /* Event.swift in Sources */,
+				98359302263A3E9A00350020 /* InfoView.swift in Sources */,
 				983D6A02261549CE00BC41D4 /* ActivityController.swift in Sources */,
+				983592E6263A3D3600350020 /* ApiController3.swift in Sources */,
 				981EBEF0261C1F210042C324 /* EOError.swift in Sources */,
 				9832B8CB26379F330045C25B /* MKMapView+Rx.swift in Sources */,
 				981EBEF5261C1F210042C324 /* EONET.swift in Sources */,
@@ -672,6 +755,7 @@
 				985D0E0526291C4B00D729E4 /* WundercastViewController.swift in Sources */,
 				984F2469260DB6A7001840EF /* UIViewController+Alert.swift in Sources */,
 				984F2445260D6975001840EF /* PhotoWriter.swift in Sources */,
+				98359308263A3ECE00350020 /* Wundercast3ViewController.swift in Sources */,
 				9862743F26087AEF00D8B315 /* ViewController.swift in Sources */,
 				981EBEFC261C1F730042C324 /* EventCell.swift in Sources */,
 				981EBEFD261C1F730042C324 /* EventsViewController.swift in Sources */,
