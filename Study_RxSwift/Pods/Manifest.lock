@@ -1,30 +1,44 @@
 PODS:
+  - Hue (5.0.0)
   - Kingfisher (4.10.1)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.2)
+  - RxTest (5.1.2):
+    - RxSwift (~> 5)
 
 DEPENDENCIES:
+  - Hue
   - Kingfisher
+  - RxBlocking
   - RxCocoa (~> 5.1)
   - RxSwift (~> 5.1)
+  - RxTest
 
 SPEC REPOS:
   trunk:
+    - Hue
     - Kingfisher
+    - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
+    - RxTest
 
 SPEC CHECKSUMS:
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  RxTest: 274549b747dca56f47c52c8991ec5cf797ecfe40
 
-PODFILE CHECKSUM: 10f10d52cee9c4857c33093aafd7432d757c22a5
+PODFILE CHECKSUM: 42116fcb10550de1d5604be78a320a5beb35c635
 
 COCOAPODS: 1.10.1
