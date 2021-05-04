@@ -47,5 +47,10 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "WundercastViewController3") as! WundercastViewController3
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    @IBAction func goToChapter17(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "giphy", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MainTableViewController") as! MainTableViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

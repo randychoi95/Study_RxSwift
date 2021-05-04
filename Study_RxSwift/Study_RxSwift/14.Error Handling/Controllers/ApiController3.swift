@@ -132,52 +132,53 @@ class ApiController3 {
      * Private method to build a request with RxCocoa
      */
     private func buildRequest(method: String = "GET", pathComponent: String, params: [(String, String)]) -> Observable<Data> {
-        let request: Observable<URLRequest> = Observable.create { observer in
-            let url = self.baseURL.appendingPathComponent(pathComponent)
-            var request = URLRequest(url: url)
-            let keyQueryItem = URLQueryItem(name: "appid", value: try? self.apiKey.value())
-            let unitsQueryItem = URLQueryItem(name: "units", value: "metric")
-            let urlComponents = NSURLComponents(url: url, resolvingAgainstBaseURL: true)!
-            
-            if method == "GET" {
-                var queryItems = params.map { URLQueryItem(name: $0.0, value: $0.1) }
-                queryItems.append(keyQueryItem)
-                queryItems.append(unitsQueryItem)
-                urlComponents.queryItems = queryItems
-            } else {
-                urlComponents.queryItems = [keyQueryItem, unitsQueryItem]
-                
-                let jsonData = try! JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
-                request.httpBody = jsonData
-            }
-            
-            request.url = urlComponents.url!
-            request.httpMethod = method
-            
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            
-            observer.onNext(request)
-            observer.onCompleted()
-            
-            return Disposables.create()
-        }
-        
-        let session = URLSession.shared
-        return request.flatMap { request in
-            return session.rx.response(request: request)
-                .map { response, data in
-                    switch response.statusCode {
-                    case 200..<300:
-                        return data
-                    case 401:
-                        throw ApiError.invalidKey
-                    case 400..<500:
-                    throw ApiError.cityNotFound
-                    default:
-                    throw ApiError.serverFailure
-                    }
-                }
-        }
+//        let request: Observable<URLRequest> = Observable.create { observer in
+//            let url = self.baseURL.appendingPathComponent(pathComponent)
+//            var request = URLRequest(url: url)
+//            let keyQueryItem = URLQueryItem(name: "appid", value: try? self.apiKey.value())
+//            let unitsQueryItem = URLQueryItem(name: "units", value: "metric")
+//            let urlComponents = NSURLComponents(url: url, resolvingAgainstBaseURL: true)!
+//
+//            if method == "GET" {
+//                var queryItems = params.map { URLQueryItem(name: $0.0, value: $0.1) }
+//                queryItems.append(keyQueryItem)
+//                queryItems.append(unitsQueryItem)
+//                urlComponents.queryItems = queryItems
+//            } else {
+//                urlComponents.queryItems = [keyQueryItem, unitsQueryItem]
+//
+//                let jsonData = try! JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
+//                request.httpBody = jsonData
+//            }
+//
+//            request.url = urlComponents.url!
+//            request.httpMethod = method
+//
+//            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+//
+//            observer.onNext(request)
+//            observer.onCompleted()
+//
+//            return Disposables.create()
+//        }
+//
+//        let session = URLSession.shared
+//        return request.flatMap { request in
+//            return session.rx.response(request: request)
+//                .map { response, data in
+//                    switch response.statusCode {
+//                    case 200..<300:
+//                        return data
+//                    case 401:
+//                        throw ApiError.invalidKey
+//                    case 400..<500:
+//                    throw ApiError.cityNotFound
+//                    default:
+//                    throw ApiError.serverFailure
+//                    }
+//                }
+//        }
+        Observable.empty()
     }
 }
 

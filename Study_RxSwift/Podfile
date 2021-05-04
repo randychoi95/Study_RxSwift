@@ -11,10 +11,15 @@ target 'Study_RxSwift' do
   pod 'RxCocoa', '~> 5.1'
   pod 'Kingfisher'
   pod 'Hue'
+  pod 'SwiftyJSON'
+  pod 'Gifu'
   
   target 'Study_RxSwiftTests' do
     inherit! :search_paths
     pod 'RxTest'
     pod 'RxBlocking'
+    pod 'Nimble'
+    pod 'RxNimble'
+    pod 'OHHTTPStubs/Swift'
   end
 end
