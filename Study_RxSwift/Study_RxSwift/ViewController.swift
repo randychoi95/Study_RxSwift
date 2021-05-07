@@ -52,5 +52,10 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "MainTableViewController") as! MainTableViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    @IBAction func goToChapter24(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Tweetie", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ListTimelineViewController") as! ListTimelineViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

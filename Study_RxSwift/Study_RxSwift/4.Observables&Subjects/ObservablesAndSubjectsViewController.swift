@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxRelay
+import RxTimelane
 
 class ObservablesAndSubjectsViewController: UIViewController {
     
@@ -25,6 +26,7 @@ class ObservablesAndSubjectsViewController: UIViewController {
         
         // BehaviorRelay객체에 구독 요청
         images
+            .lane("Photos")
             .throttle(.milliseconds(500), scheduler: MainScheduler.instance)
             .subscribe(onNext: { [weak imagePreview] photos in
                 guard let preview = imagePreview else {return}

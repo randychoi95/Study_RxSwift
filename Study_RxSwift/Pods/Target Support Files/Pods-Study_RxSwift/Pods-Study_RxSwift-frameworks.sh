@@ -175,22 +175,46 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hue/Hue.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxTimelane/RxTimelane.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TimelaneCore/TimelaneCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hue/Hue.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxTimelane/RxTimelane.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TimelaneCore/TimelaneCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
