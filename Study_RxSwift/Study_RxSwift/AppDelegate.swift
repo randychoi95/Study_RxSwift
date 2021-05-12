@@ -20,11 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let testing = NSClassFromString("XCTest") != nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let service = TaskService()
+        let sceneCoordinator = SceneCoordinator(window: window!)
+        
+        let taskViewModel = TasksViewModel(taskService: service, coordinator: sceneCoordinator)
+        let firstScene = Scene.tasks(taskViewModel)
+        sceneCoordinator.transition(to: firstScene, type: .root)
         // Override point for customization after application launch.
-        if !testing {
-          let feedNavigation = window!.rootViewController! as! UINavigationController
-          navigator.show(segue: .listTimeline(account, list), sender: feedNavigation)
-        }
+//        if !testing {
+//          let feedNavigation = window!.rootViewController! as! UINavigationController
+//          navigator.show(segue: .listTimeline(account, list), sender: feedNavigation)
+//        }
         return true
     }
 

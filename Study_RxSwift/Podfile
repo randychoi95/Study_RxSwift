@@ -14,13 +14,15 @@ target 'Study_RxSwift' do
   pod 'Gifu'
   pod 'RxTimelane', '1.0.9'
   pod 'Alamofire', '4.9.1'
-  pod 'RealmSwift', '5.1.0'
+  pod 'RealmSwift', '5.1'
   pod 'RxRealm', '3.0.0'
   pod 'Unbox', '4.0.0'
   pod 'Then', '2.7.0'
   pod 'Reachability', '3.2.0'
   pod 'RxRealmDataSources', '0.3.0'
-  pod 'RxDataSources', '4.0.1'
+  pod 'RxDataSources', '4.0'
+  pod 'Action', '~> 4.0'
+  pod 'NSObject+Rx', '~> 5.1'
   
   target 'Study_RxSwiftTests' do
     inherit! :search_paths
